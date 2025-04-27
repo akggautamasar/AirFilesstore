@@ -81,7 +81,7 @@ class Config(object):
 
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "MissRozy_BOT")
 
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002692068391"))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
 
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5965340120"))
 
