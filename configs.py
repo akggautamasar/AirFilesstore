@@ -89,7 +89,7 @@ class Config(object):
 
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002028857048")
 
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", ""-1001884214513)
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001884214513)
 
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 
