@@ -73,23 +73,23 @@ CUSTOM_CAPTION = environ.get('CUSTOM_CAPTION')
 
 class Config(object):
 
-	API_ID = int(os.environ.get("API_ID", 13323016))
+	API_ID = int(os.environ.get("API_ID", "22649259"))
 
-	API_HASH = os.environ.get("API_HASH", "13323016")
+	API_HASH = os.environ.get("API_HASH", "545169590ffbfe0bf8bade55e3a1cfde")
 
-	BOT_TOKEN = os.environ.get("BOT_TOKEN","6144687436:AAGShuVn551CQHCWjRkdoBIteGgV0SUWxBo")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN","")
 
-	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "MissRozy_BOT")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "Worksbeyondbot")
 
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002183733738"))
 
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5965340120"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6221765779"))
 
-	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://lazydeveloperr:lazydeveloperr@Cluster0.lpvunl5.mongodb.net/?retryWrites=true&w=majority")
+	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://worksbeyondworks:7R3nbeRp2rcdSwSN@cluster0.wa6dc3p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001765107260")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002028857048")
 
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001895607162")
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", ""-1001884214513)
 
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 
